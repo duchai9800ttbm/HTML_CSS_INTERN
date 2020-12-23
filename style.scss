@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$font: "Roboto",
+sans-serif;
+$shadow: 0px 3px 6px #00000080;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: $font;
+}
+
+body {
+  background-color: #ccc;
+  width: 100%;
+  font-family: $font;
+
+  #Nav-bar {
+    background-color: rgb(255, 255, 255);
+    min-height: 540px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /*location of company*/
+    .location {
+      min-height: 28px;
+      width: 100%;
+      list-style: none;
+      background-color: rgb(247, 222, 3);
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 16px;
+      padding-left: 250px;
+
+      .loca-items {
+        color: white;
+        margin: auto 10px;
+
+        i {
+          margin-right: 5px;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+          margin: auto 5px;
+        }
+      }
+    }
+  }
+
+  /*List in nav*/
+  .Nav-list {
+    min-height: 132px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(238, 45, 45);
+
+    /*items in list*/
+    .list-it {
+      list-style: none;
+      display: flex;
+
+      .nav-items {
+        font-size: 16px;
+        margin: auto 10px;
+        padding: 12px 10px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .list-ic {
+      list-style: none;
+      display: flex;
+      margin-left: 70px;
+
+      .nav-icons {
+        font-size: 20px;
+        margin: auto 10px;
+        color: black;
+        padding: 12px 5px;
+        display: inline-block;
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  /*set up picture*/
+  #product-pic {
+    height: 430px;
+    width: 100%;
+    background-color: rgb(235, 159, 201);
+    margin-top: auto;
+  }
+
+  /*Layout-I*/
+  #Layout-I {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+
+    /*dịch vụ cung cấp*/
+    #DVCC {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+      }
+
+      div {
+        text-align: center;
+        font-family: $font;
+        font-size: 18px;
+        font-weight: bold;
+
+        p {
+          margin: 10px;
+          color: rgb(231, 33, 33);
+        }
+      }
+    }
+
+    /*gioi thieu */
+    #GT {
+      background-color: rgb(255, 255, 255);
+      margin: auto 300px;
+
+      .GT-p {
+        color: black;
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+
+    /*Tư vấn*/
+    #TV {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+      }
+
+      div {
+        text-align: left;
+        font-family: $font;
+        font-size: 18px;
+        font-weight: normal;
+
+        a {
+          margin: 10px 5px;
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          line-height: 1.3em;
+        }
+      }
+    }
+
+
+  }
+
+  #author-form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(image/anh-bia-dep-15-696x464.jpg);
+
+    .container {
+      display: flex;
+      justify-content: center;
+      color: white;
+      margin: 30px auto;
+
+      .author {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px auto;
+
+        .image_author {
+          margin: auto 6px;
+          overflow: hidden;
+          border-radius: 50%;
+        }
+
+        .name {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          font-style: italic;
+          font-size: 16px;
+          padding-left: 10px;
+
+          .name_author {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+          }
+        }
+      }
+
+      /*Reviews content*/
+      .reviews_content {
+        font-style: italic;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: normal;
+      }
+    }
+
+  }
+
+  /*Tin tức cưới hỏi và đặt lịch*/
+  #TTCH {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    margin: 30px 200px;
+    #left {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        h2 {
+           font-size: 25px;
+        padding-top: 10px;
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        .text_small {
+          font-size: 16px;
+          font-style: italic;
+          margin: 10px 40px 30px;
+        }
+      }
+
+      /*set up content of Tin Tuc*/
+      .container {
+      background-color: brown;
+      
+        .row {
+          display: flex;
+            justify-content: center;
+            align-items: center;
+          .loop-blog {
+            margin: 10px;
+    
+            
+            h3 {
+              font-size: 18px;
+              a {
+                text-decoration: none;
+                color: black;
+              }
+            }
+            .bl {
+              display: flex;
+              justify-content: center;
+              flex-direction: row;
+              a{
+                margin: auto 10px;
+              }
+            .small-content {
+              font-size: 16px;
+              font-weight: 500;
+              color: rgb(207, 207, 207);
+            }
+            }
+          }
+        }
+      }
+     }
+
+     #right {
+
+      #Form-DL {
+        
+      }
+       
+     }
+
+   
+  }
+
+}

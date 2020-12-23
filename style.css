@@ -1,0 +1,414 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ccc;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  /*List in nav*/
+  /*set up picture*/
+  /*Layout-I*/
+  /*Tin tức cưới hỏi và đặt lịch*/
+}
+
+body #Nav-bar {
+  background-color: white;
+  min-height: 540px;
+  color: white;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /*location of company*/
+}
+
+body #Nav-bar .location {
+  min-height: 28px;
+  width: 100%;
+  list-style: none;
+  background-color: #f7de03;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 16px;
+  padding-left: 250px;
+}
+
+body #Nav-bar .location .loca-items {
+  color: white;
+  margin: auto 10px;
+}
+
+body #Nav-bar .location .loca-items i {
+  margin-right: 5px;
+}
+
+body #Nav-bar .location .loca-items a {
+  text-decoration: none;
+  color: white;
+  margin: auto 5px;
+}
+
+body .Nav-list {
+  min-height: 132px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #ee2d2d;
+  /*items in list*/
+}
+
+body .Nav-list .list-it {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .Nav-list .list-it .nav-items {
+  font-size: 16px;
+  margin: auto 10px;
+  padding: 12px 10px;
+}
+
+body .Nav-list .list-it .nav-items a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+body .Nav-list .list-ic {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 70px;
+}
+
+body .Nav-list .list-ic .nav-icons {
+  font-size: 20px;
+  margin: auto 10px;
+  color: black;
+  padding: 12px 5px;
+  display: inline-block;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body #product-pic {
+  height: 430px;
+  width: 100%;
+  background-color: #eb9fc9;
+  margin-top: auto;
+}
+
+body #Layout-I {
+  margin: 20px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background-color: white;
+  /*dịch vụ cung cấp*/
+  /*gioi thieu */
+  /*Tư vấn*/
+}
+
+body #Layout-I #DVCC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #Layout-I #DVCC h2 {
+  font-size: 25px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+body #Layout-I #DVCC div {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body #Layout-I #DVCC div p {
+  margin: 10px;
+  color: #e72121;
+}
+
+body #Layout-I #GT {
+  background-color: white;
+  margin: auto 300px;
+}
+
+body #Layout-I #GT .GT-p {
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body #Layout-I #TV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #Layout-I #TV h2 {
+  font-size: 25px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+body #Layout-I #TV div {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+body #Layout-I #TV div a {
+  margin: 10px 5px;
+  color: black;
+  text-decoration: none;
+  line-height: 1.3em;
+}
+
+body #author-form {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(image/anh-bia-dep-15-696x464.jpg);
+}
+
+body #author-form .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin: 30px auto;
+  /*Reviews content*/
+}
+
+body #author-form .container .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+}
+
+body #author-form .container .author .image_author {
+  margin: auto 6px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+body #author-form .container .author .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-style: italic;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+body #author-form .container .author .name .name_author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body #author-form .container .reviews_content {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+body #TTCH {
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 200px;
+}
+
+body #TTCH #left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*set up content of Tin Tuc*/
+}
+
+body #TTCH #left .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #TTCH #left .title h2 {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+body #TTCH #left .title h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+body #TTCH #left .title .text_small {
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 40px 30px;
+}
+
+body #TTCH #left .container {
+  background-color: brown;
+}
+
+body #TTCH #left .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #TTCH #left .container .row .loop-blog {
+  margin: 10px;
+}
+
+body #TTCH #left .container .row .loop-blog h3 {
+  font-size: 18px;
+}
+
+body #TTCH #left .container .row .loop-blog h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+body #TTCH #left .container .row .loop-blog .bl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body #TTCH #left .container .row .loop-blog .bl a {
+  margin: auto 10px;
+}
+
+body #TTCH #left .container .row .loop-blog .bl .small-content {
+  font-size: 16px;
+  font-weight: 500;
+  color: #cfcfcf;
+}
+/*# sourceMappingURL=style.css.map */
